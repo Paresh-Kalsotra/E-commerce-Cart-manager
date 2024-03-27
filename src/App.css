@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  font-family: Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: #f0f0f0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: burlywood;
+}
+nav a {
+  font-size: xx-large;
+  padding: 20px;
+  color: #f0f0f0;
+  text-decoration: none;
+  cursor: pointer;
+}
+.active {
+  color: #7f2121;
+}
+.container {
+  padding: 3%;
+  margin: auto;
+}
+
+.product-card {
+  display: flex;
+  width: 43%;
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+button {
+  background-color: rgb(32, 156, 32);
+  color: #eeeeee;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: green;
+}
+.total-cost {
+  text-align: right;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .product-card {
+    width: 90%;
+  }
+}
