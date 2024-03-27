@@ -25,7 +25,7 @@ const CartPage = () => {
           padding: "10px",
         }}
       >
-        Your Cart
+        Order Summary 
       </h3>
       <div className="order-List">
         {cartItems && cartItems.length > 0 ? (
