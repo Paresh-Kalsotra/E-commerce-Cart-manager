@@ -5,6 +5,7 @@ import { useDispatch } from "react-redux";
 const ProductCard = ({ product }) => {
   const dispatch = useDispatch();
 
+  console.log(product)
   function addtoCart() {
     dispatch(addItem(product));
   }
